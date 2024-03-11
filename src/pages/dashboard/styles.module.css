@@ -1,0 +1,145 @@
+.mainContainer{
+    display: flex;
+    flex: 1;
+    box-sizing: border-box;
+    padding: 8px 12px;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.menu{
+    display: none;
+}
+
+.container{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+}
+
+.headerMainContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerTextContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.headerIconContainer{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.avatarImg{
+    width: 40px;
+    height: 40px;
+}
+
+.topOverviewContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+
+.serverRequestMainContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-color: white;
+    padding: 16px 20px;
+    margin: 22px 0;
+    border-radius: 12px;
+}
+
+.midMainContainer{
+    display: flex;
+    gap: 22px;
+}
+
+.midContainer{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 16px 20px;
+    border-radius: 12px;
+    background-color: white;
+}
+
+.midBoxHeaderContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.countContainer{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.count{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.doughnutChartContainer{
+    width: 250px;
+    margin: auto;
+}
+
+.reviewMainContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 22px;
+}
+
+.reviewHeaderContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.arrowContainer{
+    display: flex;
+    gap: 7px;
+    align-items: center;
+}
+
+.reviewContainer{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .mainContainer{
+        padding: 7px 10px;
+        gap: 16px;
+    }
+
+    .menu{
+        display: flex;
+        padding-top: 10px;
+        margin-left: -10px;
+    }
+    .topOverviewContainer{
+        gap: 12px;
+    }
+    .midMainContainer{
+        gap: 12px;
+    }
+    .reviewContainer{
+        gap: 12px;
+    }
+}

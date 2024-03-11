@@ -1,0 +1,30 @@
+.mainContainer{
+    flex: 1;
+    padding: 16px 20px;
+    border-radius: 12px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.headerContainer{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.avatar{
+    width: 50px;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.bottomContainer{
+    display: flex;
+    align-items: center;
+}

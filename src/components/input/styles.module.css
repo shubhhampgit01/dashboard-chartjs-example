@@ -1,0 +1,35 @@
+.mainContainer {
+  width: 100%;
+  display: flex;
+  position: relative;
+  height: 50px;
+}
+
+.input {
+  flex: 1;
+  height: 100%;
+  padding: 12px 16px;
+  border-radius: 10px;
+  border: none;
+  background-color: #eceaf3;
+  padding-right: 40px;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 500;
+  color: #5a5667;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.searchIcon {
+  position: absolute;
+  right: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}

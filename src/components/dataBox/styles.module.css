@@ -1,0 +1,29 @@
+.mainContainer{
+    flex: 1;
+    background-color: white;
+    padding: 16px 20px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.count{
+    margin-top: 8px;
+    margin-bottom: 30px;
+}
+
+.chartContainer{
+    width: 100px;
+}
+
+@media screen and (max-width: 1024px) {
+    .chartContainer{
+        width: 75px;
+    }
+}

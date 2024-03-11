@@ -1,0 +1,44 @@
+.mainContainer{
+    padding: 0 5px;
+}
+
+.container{
+    display: flex;
+    gap: 7px;
+}
+
+.lineContainer{
+    /* margin-top: 4px; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.circleContainer{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #AB54DB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle{
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.line{
+    width: 1px;
+    height: 100%;
+    background-color: #AB54DB;
+}
+
+.textContainer{
+    flex: 1;
+    margin-bottom: 7px;
+}

@@ -1,0 +1,36 @@
+.mainContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.logo{
+    background-color: white;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img{
+    width: 40px;
+    border-radius: inherit;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+}

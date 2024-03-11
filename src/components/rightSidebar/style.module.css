@@ -1,0 +1,31 @@
+.mainContainer {
+  width: 300px;
+  
+}
+
+@media screen and (max-width: 1280px) {
+  .mainContainer{
+    width: 250px;
+  }
+}
+
+.serverStatusMainContainer {
+  margin-top: 35px;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.recentProblemContainer {
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.latestActivityContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
